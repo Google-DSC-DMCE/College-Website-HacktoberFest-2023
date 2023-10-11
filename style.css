@@ -77,7 +77,7 @@ nav img {
     color: #fff;
 }
 
-.hero-btn {
+/* .hero-btn {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -87,7 +87,29 @@ nav img {
     background: transparent;
     position: relative;
     cursor: pointer;
+} */
+.hero-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+
+    
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
 }
+
+.hero-btn:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+
 
 
 
