@@ -89,11 +89,7 @@ nav img {
     cursor: pointer;
 }
 
-.hero-btn:hover {
-    background: #f44336;
-    border: 1px solid #f44336;
-    transition: 1s;
-}
+
 
 nav .fa-solid {
     display: none;
