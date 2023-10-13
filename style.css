@@ -46,7 +46,7 @@ nav img {
     content: '';
     width: 0;
     height: 2px;
-    background: #f44336;
+    background: #FFFFFF;
     display: block;
     margin: 0 auto;
     transition: 0.5s;
@@ -126,7 +126,7 @@ nav .fa-solid {
     }
     .nav-links {
         position: fixed;
-        background: #f44336;
+        background: #000031;
         height: 100vh;
         width: 250px;
         top: 0;
