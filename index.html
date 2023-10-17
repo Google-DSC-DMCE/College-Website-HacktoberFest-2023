@@ -1,194 +1,294 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <!-- <meta charset="utf-8"> -->
     <title>University Website Design</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3656aad70d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3656aad70d.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li> <a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li> <a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
-        </nav>
-        <div class="text-box">
-            <h1>Mumbai's Best College</h1>
-            <p>Here in Mumbai's Best College we offer the best possible<br> Courses and Teachings</p>
-            <a href="about.html" class="hero-btn">visit us to know more</a>
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
         </div>
-
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Mumbai's Best College</h1>
+        <p>
+          Here in Mumbai's Best College we offer the best possible<br />
+          Courses and Teachings
+        </p>
+        <a href="about.html" class="hero-btn">visit us to know more</a>
+      </div>
     </section>
     <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>Computer Science Civil Engineering and many more</p>
+      <h1>Courses We Offer</h1>
+      <p>Computer Science Civil Engineering and many more</p>
 
-        <div class="row">
-
-            <div class="course-col">
-                <h3>Batchelor</h3>
-                <p>A bachelor's degree program is typically the first step in a student's academic journey. It is a four-year program that provides students with the foundational knowledge and skills needed to enter the workforce. Many bachelor's degree programs require the completion of a core curriculum of courses in the humanities, social sciences, and sciences. Additionally, students have the option to choose electives in areas of their interest. </p>
-
-            </div>
-            <div class="course-col">
-                <h3>Masters</h3>
-                <p>A master's degree typically requires two years of coursework beyond the bachelor's degree and is typically more specialized. Students may choose to specialize in a particular field, such as accounting, finance, engineering, or computer science. Additionally, students may be required to complete an internship or research project. </p>
-
-            </div>
-            <div class="course-col">
-                <h3>Phd.</h3>
-                <p>A PhD is the highest academic degree, and it requires a great deal of dedication and hard work. PhD programs involve a comprehensive academic journey that includes coursework, comprehensive examinations, research, and a dissertation. A PhD program typically takes four to six years to complete. Upon completion of a PhD program, students are prepared to become leaders in their chosen fields. </p>
-
-            </div>
-
+      <div class="row">
+        <div class="course-col">
+          <h3>Batchelor</h3>
+          <p>
+            A bachelor's degree program is typically the first step in a
+            student's academic journey. It is a four-year program that provides
+            students with the foundational knowledge and skills needed to enter
+            the workforce. Many bachelor's degree programs require the
+            completion of a core curriculum of courses in the humanities, social
+            sciences, and sciences. Additionally, students have the option to
+            choose electives in areas of their interest.
+          </p>
         </div>
-
-
-
-
+        <div class="course-col">
+          <h3>Masters</h3>
+          <p>
+            A master's degree typically requires two years of coursework beyond
+            the bachelor's degree and is typically more specialized. Students
+            may choose to specialize in a particular field, such as accounting,
+            finance, engineering, or computer science. Additionally, students
+            may be required to complete an internship or research project.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Phd.</h3>
+          <p>
+            A PhD is the highest academic degree, and it requires a great deal
+            of dedication and hard work. PhD programs involve a comprehensive
+            academic journey that includes coursework, comprehensive
+            examinations, research, and a dissertation. A PhD program typically
+            takes four to six years to complete. Upon completion of a PhD
+            program, students are prepared to become leaders in their chosen
+            fields.
+          </p>
+        </div>
+      </div>
     </section>
-
 
     <section class="campus">
-        <h1>Our Global Campus
-        </h1>
-        <p>Our Campuses are very well built and neatly organized for learning.
-        </p>
-        <div class="row">
-            <div class="campus-col">
-                <img src="images/mumbai.jpg" alt="">
-                <div class="layer">
-                    <h2>MUMBAI</h2>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src="images/delhi.jpg" alt="">
-                <div class="layer">
-                    <h2>DELHI</h2>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src="images/chennai.jpg" alt="">
-                <div class="layer">
-                    <h2>CHENNAI</h2>
-                </div>
-            </div>
+      <h1>Our Global Campus</h1>
+      <p>Our Campuses are very well built and neatly organized for learning.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/mumbai.jpg" alt="" />
+          <div class="layer">
+            <h2>MUMBAI</h2>
+          </div>
         </div>
-
+        <div class="campus-col">
+          <img src="images/delhi.jpg" alt="" />
+          <div class="layer">
+            <h2>DELHI</h2>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/chennai.jpg" alt="" />
+          <div class="layer">
+            <h2>CHENNAI</h2>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="facilities">
-        <h1>facilities</h1>
-        <p>We have multiple facilities, such as Sports arena, Canteen and Library</p>
-        <div class="row">
-            <div class="facilities-col">
-                <img src="images/library.png" alt="">
-                <h3>Library</h3>
-                <p>Our world class library is packed with world class books and reading materials for the benefit of our humble students.</p>
-            </div>
-
-
-            <div class="facilities-col">
-                <img src="images/basketball.png" alt="">
-                <h3>Sports</h3>
-                <p>We have a very large playground that different sport activities are carried out such as soccer, basketball etc.</p>
-            </div>
-
-            <div class="facilities-col">
-                <img src="images/cafeteria.png" alt="">
-                <h3>Canteen</h3>
-                <p>Our neat and hygienic cafeteria provides delicious and healthy meals for the benefit of our students.</p>
-            </div>
+      <h1>facilities</h1>
+      <p>
+        We have multiple facilities, such as Sports arena, Canteen and Library
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="" />
+          <h3>Library</h3>
+          <p>
+            Our world class library is packed with world class books and reading
+            materials for the benefit of our humble students.
+          </p>
         </div>
+
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="" />
+          <h3>Sports</h3>
+          <p>
+            We have a very large playground that different sport activities are
+            carried out such as soccer, basketball etc.
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Canteen</h3>
+          <p>
+            Our neat and hygienic cafeteria provides delicious and healthy meals
+            for the benefit of our students.
+          </p>
+        </div>
+      </div>
     </section>
     <section class="testimonials">
-        <h1>what our students says</h1>
-        <p>These are some feedbacks from our humble students</p>
-        <div class="row">
-            <div class="testimonials-col">
-                <img src="images/user1.jpg" alt="">
-                <div>
-                    <p>A good university is one that provides its students with a high-quality educational experience, excellent faculty and staff, and a vibrant and supportive campus community, and that's exactly what Mumbai's best college offers.
-                    </p>
-                    <h3>Angel Singh</h3>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-
-
-                </div>
-            </div>
-            <div class="testimonials-col">
-                <img src="images/user2.jpg" alt="">
-                <div>
-                    <p> Mumbai's best college is one of the best if not the best college out there everything about it is excellent!!!
-                    </p>
-                    <h3>Aditya Rai</h3>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-
-
-                </div>
-            </div>
+      <h1>what our students says</h1>
+      <p>These are some feedbacks from our humble students</p>
+      <div class="row">
+        <div class="testimonials-col">
+          <img src="images/user1.jpg" alt="" />
+          <div>
+            <p>
+              A good university is one that provides its students with a
+              high-quality educational experience, excellent faculty and staff,
+              and a vibrant and supportive campus community, and that's exactly
+              what Mumbai's best college offers.
+            </p>
+            <h3>Angel Singh</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
         </div>
+        <div class="testimonials-col">
+          <img src="images/user2.jpg" alt="" />
+          <div>
+            <p>
+              Mumbai's best college is one of the best if not the best college
+              out there everything about it is excellent!!!
+            </p>
+            <h3>Aditya Rai</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: -40px">
+        <div class="testimonials-col">
+          <img src="images/1580236630509.jpeg" alt="" />
+          <div>
+            <p>
+              Being a student from the best college has been an enriching
+              experience. Exceptional faculty, vibrant campus life, and
+              transformative education make it the epitome of higher learning,
+              setting the bar high.
+            </p>
+            <h3>Shubhangi Desai</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="testimonials-col">
+          <img src="images/1687755414347.jpeg" alt="" />
+          <div>
+            <p>
+              Placement quality is also been exceptional in this college, that
+              is the reason why I have chosen this college.80 percent students
+              got placed . average salary offered was 15lpa. placement process
+              is easy and pleasant and our college is supportive a lot.
+            </p>
+            <h3>Atharva Pandey</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: -40px">
+        <div class="testimonials-col">
+          <img src="images/download.jpeg" alt="" />
+          <div>
+            <p>
+                According to campus life we have separate boys and girls hostel for staying option and hostel hygiene is everyday maintained and food quality is average and as academic facilities we have separate departments buildings and many of the classes and lab are accomodated with A.C. and for each class we have a projector where the faculties can teach subjects using projector !!!.
+            </p>
+            <h3>Kedar Shinde</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="testimonials-col">
+          <img src="images/jij.jpg" alt="" />
+          <div>
+            <p>
+                If I talk about my college ....it is a great college each N everything is superb including teachers , student ,peons ,staff etc ...all the things are superb . library facility is also outstanding N the labrarian ma'am she is also very. Nice humble ,kind, and best teacher I think she is very close to my . whatever I am today just because of her help .. .....,. superb college teaching staff is also good
+            </p>
+            <h3>Gautam Singh</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="cta">
-        <h1>Enroll for our various online courses <br> anywhere from the world</h1>
-        <a href="contact.html" class="hero-btn">Contact US</a>
+      <h1>
+        Enroll for our various online courses <br />
+        anywhere from the world
+      </h1>
+      <a href="contact.html" class="hero-btn">Contact US</a>
     </section>
 
     <section class="footer">
-        <p>We are committed to providing our students with a quality education that prepares them to succeed in their chosen fields. Our research and teaching centers are dedicated to providing innovative solutions to the world's most pressing problems. Visit our social media pages to learn more.</p>
-        <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
-        </div>
+      <p>
+        We are committed to providing our students with a quality education that
+        prepares them to succeed in their chosen fields. Our research and
+        teaching centers are dedicated to providing innovative solutions to the
+        world's most pressing problems. Visit our social media pages to learn
+        more.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
     </section>
     <script>
-        // javascript for phone nav close and open 
-        var navLink = document.getElementById("navLinks")
+      // javascript for phone nav close and open
+      var navLink = document.getElementById("navLinks");
 
-        function showMenu() {
-            navLink.style.right = "0";
-        }
+      function showMenu() {
+        navLink.style.right = "0";
+      }
 
-        function hideMenu() {
-            navLink.style.right = "-250px";
-        }
+      function hideMenu() {
+        navLink.style.right = "-250px";
+      }
     </script>
     <script type="module">
-        // Import the functions you need from the SDKs you need import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js"; // TODO: Add
-        SDKs for Firebase products that you want to use // https://firebase.google.com/docs/web/setup#available-libraries // Your web app's Firebase configuration // For Firebase JS SDK v7.20.0 and later, measurementId is optional const firebaseConfig
-        = { apiKey: "AIzaSyAtpQyyAla2N7jQtZFRlCtatp-9rhk1tsg", authDomain: "college-clone-509.firebaseapp.com", projectId: "college-clone-509", storageBucket: "college-clone-509.appspot.com", messagingSenderId: "638617845298", appId: "1:638617845298:web:f14f5992a71232c8dac62b",
-        measurementId: "G-TDPCT48VFG" }; // Initialize Firebase const app = initializeApp(firebaseConfig); const analytics = getAnalytics(app);
+      // Import the functions you need from the SDKs you need import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js"; // TODO: Add
+      SDKs for Firebase products that you want to use // https://firebase.google.com/docs/web/setup#available-libraries // Your web app's Firebase configuration // For Firebase JS SDK v7.20.0 and later, measurementId is optional const firebaseConfig
+      = { apiKey: "AIzaSyAtpQyyAla2N7jQtZFRlCtatp-9rhk1tsg", authDomain: "college-clone-509.firebaseapp.com", projectId: "college-clone-509", storageBucket: "college-clone-509.appspot.com", messagingSenderId: "638617845298", appId: "1:638617845298:web:f14f5992a71232c8dac62b",
+      measurementId: "G-TDPCT48VFG" }; // Initialize Firebase const app = initializeApp(firebaseConfig); const analytics = getAnalytics(app);
     </script>
-</body>
-
+  </body>
 </html>
