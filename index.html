@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/3656aad70d.js"
       crossorigin="anonymous"
@@ -206,9 +210,30 @@
         <i class="fa fa-linkedin"></i>
       </div>
     </section>
+    <div class="top-btn">
+      <button id="top-btn"><i class="bx bx-up-arrow-alt"></i></button>
+    </div>
     <script>
       // javascript for phone nav close and open
       var navLink = document.getElementById("navLinks");
+      let topBtn = document.getElementById("top-btn");
+
+      topBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        scrollToTop();
+      });
+
+      function scrollToTop() {
+        var scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+        var scrollStep = 100;
+
+        if (scrollTop !== 0) {
+          window.scrollTo(0, scrollTop - scrollStep);
+          requestAnimationFrame(scrollToTop);
+        }
+      }
 
       function showMenu() {
         navLink.style.right = "0";

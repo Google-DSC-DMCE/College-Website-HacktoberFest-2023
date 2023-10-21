@@ -113,6 +113,37 @@ nav .fa-solid {
   display: none;
 }
 
+.top-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.top-btn button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #2367af;
+  transition: all 0.25s ease;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-btn button:hover {
+  background-color: #0156b1;
+}
+
+.top-btn button i {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 20px;
